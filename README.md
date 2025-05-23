@@ -90,6 +90,13 @@ To use the user registration feature:
 
 ---
 
+## Images
+
+Below are some screenshots and visuals of FRAS in action:
+
+
+---
+
 ## Important Notes
 
 - **Update MySQL Password**: Replace the placeholder password in the scripts with your actual MySQL database password.
