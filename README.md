@@ -32,7 +32,7 @@ The main objective of FRAS is to accurately capture attendance using facial reco
 
 ### Hardware Requirements
 - Laptop with webcam (internal or external)
-- CPU: 11th Gen Intel (recommended)
+- CPU: 11th Gen Intel or more (recommended)
 - RAM: 16 GB or higher
 
 ### Software Requirements
