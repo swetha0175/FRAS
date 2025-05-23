@@ -95,6 +95,7 @@ To use the user registration feature:
 Below are some screenshots and visuals of FRAS in action:
 
 [FRAS Main System](FRAS-Main-System.png)
+<br>
 [FRAS Registration Page](Registration-Page.png)
 
 ---
