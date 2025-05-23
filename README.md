@@ -47,6 +47,10 @@ In this section, reader can expect to see the hardware and software requirements
 <p> To successfully execute the registration page for the FRAS, follow the below steps:</p>
    1. Connect the MySQL database to the Registration Python Script as done the FRAS_main script<br>
    2. Execute the FRAS_Registration Script<br><br>
-<p> TAKE NOTE: <br> Ensure you change the password for the MySQL database when connection to your MySQL database password, do not use the password stated in the script it will not work <br> Make sure all  the libraries are installed within PyCharm before executing any Python Script from this FRAS folder.<br> Mmake to install the exact version of the python and python libraries as other libraries may not function properly.</p>
+
+## Take Note: 
+   - Ensure you change the password for the MySQL database when connection to your MySQL database password, do not use the password stated in the script it will not work
+   - Make sure all  the libraries are installed within PyCharm before executing any Python Script from this FRAS folder.
+   - Mmake to install the exact version of the python and python libraries as other libraries may not function properly.
 
 
