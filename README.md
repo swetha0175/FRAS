@@ -35,9 +35,9 @@ In this section, reader can expect to see the hardware and software requirements
    4. Install MySQL Server and WorkBench in your computer as per normal. (remember the mysql database password in which you want to store the attendance data in)<br>
    5. Connect the MySQL database with the Python script as stated in the FRAS_main script<br>
    6. Execute the FRAS_Main Python File<br><br>
-<p> To successfully execute the registration page for the FRAS, follow the below steps: </p>
+<p> To successfully execute the registration page for the FRAS, follow the below steps:</p>
    1. Connect the MySQL database to the Registration Python Script as done the FRAS_main script<br>
-   2. Execute the FRAS_Registration Script<br>
+   2. Execute the FRAS_Registration Script<br><br>
 <p> TAKE NOTE: <br> Ensure you change the password for the MySQL database when connection to your MySQL database password, do not use the password stated in the script it will not work <br> Make sure all  the libraries are installed within PyCharm before executing any Python Script from this FRAS folder.</p>
 
 
