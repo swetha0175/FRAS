@@ -1,56 +1,99 @@
-# Project Title: FRAS
-<p> FRAS is an Facial Recognition Attendnace System, which is an AI-driven attendance system that automates attendance taking using internal and external web cameras to scan and track user attendance. </p>
+# FRAS: Facial Recognition Attendance System
 
-## Table of Content 
-   - [Project Scope] 
-   - [Project Objective] 
-   - [Project Hardware and Software Requirements]
+FRAS is an AI-powered Facial Recognition Attendance System that automates attendance tracking using internal or external webcams. It leverages facial recognition technology to identify and log user attendance seamlessly into a MySQL database.
+
+---
+
+## Table of Contents
+- [Project Scope](#project-scope)  
+- [Project Objectives](#project-objectives)  
+- [Project Requirements](#project-requirements)  
+  - [Hardware Requirements](#hardware-requirements)  
+  - [Software Requirements](#software-requirements)  
+  - [Python Library Requirements](#python-library-requirements)  
+- [Installation & Usage](#installation--usage)  
+- [Important Notes](#important-notes)
+
+---
 
 ## Project Scope
-<p> The scope of this FRAS is to streamline attendance taking by reducing human errors and time consumption from traditional attendance methods. </p>
 
-## Project Objective
-<p> The main objective of the FRAS is to ensure successfully taking attendance using facial recognition machanisms through a webcam and add the relevant scanned user data to an MySQL Database </p>
+The primary scope of FRAS is to simplify and digitize the attendance process by reducing manual errors and minimizing the time required for traditional attendance-taking methods.
 
-## Project Requirements 
-In this section, reader can expect to see the hardware and software requirements to execute the FRAs successfully.
-<br>
-### Hardware Requirements 
-   - Laptop with a Webcam (can be internal and external)
-   - CPU version: 11th Gen Intel
-   - Memory: 16GB
-### Software Requirements 
-   - PyCharm
-   - Python (3.9)
-   - MySQL Server & Workbench
-### Library Installation in PyCharm
-   - face_recognition (1.3.0)
-   - face_recognition_model (0.3.0)
-   - opencv-python (4.11.0.86)
-   - cmake (3.31.4)
-   - dlib (19.24.6)
-   - numpy (2.0.2)
-   - cvzone (1.6.1)
-   - pickle 
-   - mysql.connector (2.2.9)
-   - os
-   - datetime
+---
 
-## Installation & Usage of FRAS 
-<p> To use the FRAS in the own local computer, you need to make sure that the files are being runned from the PyCharm Software <br> To successful execute the FRAS main system, follow the below steps:</p>
-   1. In PyCharm create a folder in which you want to store the FRAS <br>
-   2. Download all the python files in the FRAS folder and add it to the folder previously created <br>
-   3. Open the FRAS_main file in Pycharm and download all the python libraries stated in the requirements section <br>
-   4. Install MySQL Server and WorkBench in your computer as per normal. (remember the mysql database password in which you want to store the attendance data in)<br>
-   5. Connect the MySQL database with the Python script as stated in the FRAS_main script<br>
-   6. Execute the FRAS_Main Python File<br><br>
-<p> To successfully execute the registration page for the FRAS, follow the below steps:</p>
-   1. Connect the MySQL database to the Registration Python Script as done the FRAS_main script<br>
-   2. Execute the FRAS_Registration Script<br><br>
+## Project Objectives
 
-## Take Note: 
-   - Ensure you change the password for the MySQL database when connection to your MySQL database password, do not use the password stated in the script it will not work
-   - Make sure all  the libraries are installed within PyCharm before executing any Python Script from this FRAS folder.
-   - Make to install the exact version of the python and python libraries as other libraries may not function properly.
+The main objective of FRAS is to accurately capture attendance using facial recognition via a webcam and log the data into a MySQL database. This system enhances efficiency and improves the integrity of attendance records.
 
+---
 
+## Project Requirements
+
+### Hardware Requirements
+- Laptop with webcam (internal or external)
+- CPU: 11th Gen Intel (recommended)
+- RAM: 16 GB or higher
+
+### Software Requirements
+- Python 3.9
+- PyCharm IDE
+- MySQL Server & MySQL Workbench
+
+### Python Library Requirements
+Make sure the following libraries are installed within PyCharm:
+
+- `face_recognition==1.3.0`  
+- `face_recognition_model==0.3.0`  
+- `opencv-python==4.11.0.86`  
+- `cmake==3.31.4`  
+- `dlib==19.24.6`  
+- `numpy==2.0.2`  
+- `cvzone==1.6.1`  
+- `pickle`  
+- `mysql-connector-python==2.2.9`  
+- `os`  
+- `datetime`
+
+---
+
+## Installation & Usage
+
+Follow the steps below to set up and run FRAS on your local machine:
+
+1. **Create a Folder in PyCharm**  
+   Create a new project/folder where FRAS will reside.
+
+2. **Add Project Files**  
+   Download all FRAS Python files and add them to the created folder.
+
+3. **Open and Configure PyCharm**  
+   - Open the `FRAS_main.py` file in PyCharm.  
+   - Install all required Python libraries listed in the requirements section.
+
+4. **Set Up MySQL**  
+   - Install MySQL Server and MySQL Workbench on your system.  
+   - Remember the password you use for the database—it will be required later.
+
+5. **Database Configuration**  
+   - In `FRAS_main.py`, connect your Python script to MySQL using your credentials.
+
+6. **Run the Attendance System**  
+   - Execute `FRAS_main.py` to begin facial recognition attendance logging.
+
+### Registration Script
+To use the user registration feature:
+
+1. Open the `FRAS_Registration.py` file.
+2. Connect it to the MySQL database as done in `FRAS_main.py`.
+3. Execute the script to register new users.
+
+---
+
+## Important Notes
+
+- **Update MySQL Password**: Replace the placeholder password in the scripts with your actual MySQL database password.
+- **Library Versions**: Ensure you're using the exact library versions specified to avoid compatibility issues.
+- **Environment Setup**: All installations and script executions should be done within the PyCharm IDE.
+
+---
