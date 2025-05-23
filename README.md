@@ -51,6 +51,6 @@ In this section, reader can expect to see the hardware and software requirements
 ## Take Note: 
    - Ensure you change the password for the MySQL database when connection to your MySQL database password, do not use the password stated in the script it will not work
    - Make sure all  the libraries are installed within PyCharm before executing any Python Script from this FRAS folder.
-   - Mmake to install the exact version of the python and python libraries as other libraries may not function properly.
+   - Make to install the exact version of the python and python libraries as other libraries may not function properly.
 
 
