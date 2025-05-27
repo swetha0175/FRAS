@@ -49,8 +49,8 @@ FRAS/
 ## 🧠 How It Works
 
 1. User registers their face using `FRAS_Registration.py`.  
-2. System captures multiple facial encodings using `face_recognition`.  
-3. During attendance (`FRAS_main.py`), the webcam captures live frames and compares with known encodings.  
+2. `FRAS-main-system.py` captures multiple facial encodings using `face_recognition`.  
+3. During attendance (`FRAS_main-system.py`), the webcam captures live frames and compares with known encodings.  
 4. On match, the user's attendance is marked and logged in MySQL with a timestamp.
 
 ---
@@ -75,9 +75,9 @@ The main objective of FRAS is to accurately capture attendance using facial reco
 - RAM: 16 GB or higher
 
 ### Software Requirements
-- Python 3.9  
-- PyCharm IDE  
-- MySQL Server & MySQL Workbench
+- Python 3.9  (3.10 - 3.12 not recommended since some version are not compatible with face_recognition library)
+- PyCharm IDE (Any version)
+- MySQL Server & MySQL Workbench (Any version)
 
 ### Python Library Requirements
 Make sure the following libraries are installed within PyCharm:
@@ -107,7 +107,7 @@ Follow the steps below to set up and run FRAS on your local machine:
    Download all FRAS Python files and add them to the created folder.
 
 3. **Open and Configure PyCharm**  
-   - Open the `FRAS_main.py` file in PyCharm.  
+   - Open the `FRAS-main-system.py` `FRAS-registeration.py` `fRAS-encoder`file in PyCharm.  
    - Install all required Python libraries listed in the requirements section.
 
 4. **Set Up MySQL**  
@@ -115,16 +115,16 @@ Follow the steps below to set up and run FRAS on your local machine:
    - Remember the password you use for the database—it will be required later.
 
 5. **Database Configuration**  
-   - In `FRAS_main.py`, connect your Python script to MySQL using your credentials.
+   - In `FRAS-main-system.py`, connect your Python script to MySQL using your MySQL Server credentials.
 
 6. **Run the Attendance System**  
-   - Execute `FRAS_main.py` to begin facial recognition attendance logging.
+   - Execute `FRAS-main-system.py` to begin facial recognition attendance logging.
 
 ### Registration Script
 To use the user registration feature:
 
 1. Open the `FRAS_Registration.py` file.  
-2. Connect it to the MySQL database as done in `FRAS_main.py`.  
+2. Connect it to the MySQL database as done in `FRAS-main-system.py`.  
 3. Execute the script to register new users.
 
 ---
