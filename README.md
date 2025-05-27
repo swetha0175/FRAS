@@ -38,10 +38,14 @@ FRAS is an AI-powered Facial Recognition Attendance System that automates attend
 ```plaintext
 FRAS/
 │
-├── FRAS_Main.py             # Main script for attendance taking
-├── FRAS_Registration.py     # Registration system for new users
-├── images/                  # Sample and saved images for facial recognition
-├── README.md                # Project documentation
+├── FRAS-main-system.py             # Main script for attendance taking
+├── FRAS-registration.py            # Registration system for new users
+├── fras-encoder.py                 # Encoder script for the facial encodings
+├── images/                         # FRAS Testing images
+├── Resources/                      # UI/UX, mainly the visuals of the FRAS system
+├── Results/                        # FRAS Results 
+├── README.md                       # Project debrief
+├── requirements.txt                # The list of python libraries and the versions required 
 
 ```
 ---
