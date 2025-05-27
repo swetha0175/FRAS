@@ -133,8 +133,8 @@ To use the user registration feature:
 
 Below are some screenshots and visuals of FRAS in action:
 
-![FRAS Main System](FRAS-Main-System.png)  
-![FRAS Registration Page](Registration-Page.png)
+![FRAS Main System](Results/FRAS-Main-System.png)  
+![FRAS Registration Page](Results/Registration-Page.png)
 
 ---
 
